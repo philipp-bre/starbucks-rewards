@@ -132,11 +132,13 @@ function StarSection() {
                             />
                         </div>
                         <div className="flex-1 text-center flex 
-                        flex-col justify-center items-center lg:items-start lg:text-left space-y-5">
+                        flex-col justify-center items-center 
+                        lg:items-start lg:text-left space-y-5">
                             <h2 className="text-xl lg:text-2xl  lg:w-[40%] font-semibold">
                                 {activeSection.title}
                             </h2>
-                            <p className="text-[#1e3932] text-sm mb-5 lg:mb-0 lg:text-base w-60 sm:w-80 lg:w-[40%]  font-semibold">
+                            <p className="text-[#1e3932] text-sm mb-5 lg:mb-0 
+                            lg:text-base w-60 sm:w-80 lg:w-[40%]  font-semibold">
                                 {activeSection.paragraph}
                             </p>
                         </div>
