@@ -132,7 +132,7 @@ function StarSection() {
                             />
                         </div>
                         <div className="flex-1 text-center flex 
-                        flex-col justify-center items-center lg:text-left space-y-5">
+                        flex-col justify-center items-center lg:items-start lg:text-left space-y-5">
                             <h2 className="text-xl lg:text-2xl  lg:w-[40%] font-semibold">
                                 {activeSection.title}
                             </h2>
